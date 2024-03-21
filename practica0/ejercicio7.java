@@ -5,7 +5,7 @@ package practica0;
 
 import java.util.Scanner;
 
-public class ejercicio7 {
+public class Ejercicio7 {
 	
 	public static int imprimirPromedio(int a, int b) {
 		return (a + b) / 2;

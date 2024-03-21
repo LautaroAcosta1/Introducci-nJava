@@ -6,7 +6,7 @@ package practica0;
 
 import java.util.Scanner;
 
-public class ejercicio6 {
+public class Ejercicio6 {
 	
 	// se crea un metodo entero con dos propiedades
 	public static int imprimirSuma(int a, int b) {

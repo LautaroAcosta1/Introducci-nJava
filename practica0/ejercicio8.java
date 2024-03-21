@@ -9,7 +9,7 @@ package practica0;
 
 import java.util.Scanner;
 
-public class ejercicio8 {
+public class Ejercicio8 {
 	
 	public static double ponerNota(double x, double y) {
 		return (x + y) / 2;

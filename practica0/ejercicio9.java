@@ -5,10 +5,10 @@ package practica0;
 
 import java.util.Scanner;
 
-public class ejercicio9 {
+public class Ejercicio9 {
 	
-	 public static int imprimirFecha(int dia, int mes, int anio) {
-		 return System.out.println(dia + "de" + mes + "de" + anio);
+	 public static void imprimirFecha(int dia, String mes, int anio) {
+		 System.out.println(dia + " de " + mes + " de " + anio);
 	 }
 
 	public static void main(String[] args) {
@@ -20,7 +20,7 @@ public class ejercicio9 {
 		String mes = scan.next();
 		System.out.println("Ingresa el anio: ");
 		int anio = scan.nextInt();
-		System.out.println(imprimirFecha(dia, mes, anio));
+		imprimirFecha(dia, mes, anio);
 		scan.close();
 
 	}

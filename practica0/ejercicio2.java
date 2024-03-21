@@ -5,7 +5,7 @@ package practica0;
 
 import java.util.Scanner;
 
-public class ejercicio2 {
+public class Ejercicio2 {
 
 	public static void main(String[] args) {
 		
